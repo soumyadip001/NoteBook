@@ -1,0 +1,12 @@
+
+        This is a initial test content to get the idea!
+
+        class abc = {
+            fruits: [
+                'apple': true,
+                'orange': true,
+                'meat': false
+            ]
+        }
+
+Saving on DB

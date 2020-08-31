@@ -1,0 +1,48 @@
+.ParentCategory {
+    background-color: #424242;
+    padding: 10px;
+    margin: 0px;
+    text-align: left;
+    color: #fafafa;
+    height: 100vh;
+}
+.MyNoteBookLogo {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.ParentCategoryTabLink {
+    color: #fafafa;
+    text-align: left;
+    text-transform: uppercase;
+    border: none;
+}
+.ParentCategoryTabLink:hover {
+    color: #fafafa;
+    border: none;
+}
+
+.ParentCategoryList {
+    background-color: transparent;
+    display: none;
+}
+.ParentCategoryListLI {
+    background-color: transparent;
+    color: #fafafa;
+    border: 0px transparent;
+    cursor: pointer;
+}
+.ParentCategoryListLI:hover {
+    background-color: #212121;
+}
+.ParentLink {
+    color: #fafafa;
+}
+.ParentLink:hover {
+    text-decoration: none;
+    color: #fafafa;
+}

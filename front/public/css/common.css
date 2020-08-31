@@ -1,0 +1,181 @@
+/********
+    COLOR CODES AND OTHER VARIABLES
+*/
+.color-blue {
+    color: #0288D1;
+}
+.color-red {
+    color: #dc3545;
+}
+.color-green {
+    color: #00796B;
+}
+.bg-color-black {
+    background-color: #212121;
+}
+
+/*******
+    COMMON CLASSES
+*/
+.cursor-pointer {
+    cursor: pointer;
+}
+
+/******
+    This section contains helpers for the header component
+    component -> Parent.js
+*/
+.note-header-title {
+    border: none;
+    padding-left: 0px;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #757272;
+    margin-top: 20px;
+    letter-spacing: 2px;
+    margin-left: 30px;
+    font-weight: bold;
+}
+.note-header-link {
+    color: #c7c7c7;
+    text-align: left;
+    border: none;
+    padding-left: 0px;
+    font-size: 15px;
+    margin-left: 5px;
+    line-height: 14px;
+}
+.note-header-link:hover {
+    color: #fafafa;
+}
+.note-header-link span {
+    margin-left: 10px;
+}
+.note-header-link span.note-header-action-icons {
+    float: right;
+    font-size: 16px;
+    margin-left: 12px;
+}
+.header-footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.header-footer .col {
+    text-align: center;
+    padding: 10px 0px;
+    cursor: pointer;
+}
+.parent-search-wrapper {
+    margin-top: 20px;
+}
+.parent-search-wrapper .input-group-append {
+    width: 50px;
+    overflow: hidden;
+}
+.parent-search-wrapper .input-group input {
+    background: transparent;
+    border: none;
+    color: #c7c7c7;
+    outline: none;
+}
+.parent-search-wrapper input:active, 
+.parent-search-wrapper input:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+.parent-search-wrapper .input-group-append .btn {
+    border: none;
+    background: transparent;
+    color: #c7c7c7;
+}
+.header-all-category-wrapper {
+    margin-bottom: 10px;
+}
+.header-all-category-parent {
+    margin-bottom: 0px;
+}
+.header-all-category-parent:hover {
+    background-color: #263238;
+}
+.header-all-category-parent.active {
+    background-color: #263238;
+}
+.header-all-category-parent svg{
+    font-size: 35px;
+    margin-top: 3px;
+}
+.header-all-category-parent .col-2 {
+    text-align: center;
+    padding-left: 2px !important;
+}
+.header-all-category-parent .col-8 {
+    text-align: left;
+    font-size: 14px;
+    padding-left: 2px;
+    cursor: pointer;
+}
+.header-all-category-parent .header-all-category-parent-title {
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #ff9800;
+}
+.header-all-category-parent .header-all-category-parent-content {
+    color: #b1b1b1;
+}
+.header-all-category-parent .header-all-category-parent-content span {
+    float: right;
+    margin-right: 5px;
+}
+.header-all-category-parent .show-more-options .dropdown-menu {
+    display: block;
+    padding-top: 5px;
+}
+.header-all-category-parent .show-more-options .dropdown-menu .dropdown-item {
+    font-size: 14px;
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 10px;
+}
+.header-all-category-parent .show-more-options .dropdown-menu .dropdown-item svg {
+    font-size: 24px;
+    margin-top: 0;
+    text-align: left;
+    vertical-align: middle;
+}
+.header-all-category-parent .show-more-options .dropdown-toggle {
+    background: transparent;
+    color: #fff;
+    transition: none;
+    padding: 0;
+    margin-top: 0px;
+}
+.header-all-category-parent .show-more-options .dropdown-toggle::after {
+    content: none;
+}
+.header-all-category-child .col-2 {
+    padding-left: 0px !important;
+}
+.header-all-category-child .col-2 svg {
+    font-size: 24px;
+    margin-top: 2px;
+}
+.header-all-category-child .col-8 {
+    vertical-align: middle;
+    padding-top: 2px;
+}
+.header-all-category-child .col-8 .header-all-category-child-title {
+    cursor: pointer;
+    font-size: 14px;
+    color: #c7c7c7;
+}
+.header-all-category-child .col-8 .header-all-category-child-title span {
+    float: right;
+    margin-right: 5px;
+    color: #b1b1b1;
+}
+.header-all-category-child .col-8 .header-all-category-child-title:hover {
+    text-decoration: underline;
+    color: #fff;
+}

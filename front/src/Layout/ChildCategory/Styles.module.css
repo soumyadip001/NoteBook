@@ -1,0 +1,37 @@
+.SearchWrapperStyle {
+    padding: 0;
+    margin-top: 20px;
+}
+.SearchInputStyle {
+    background-color: transparent;
+}
+.CreateNote {
+    background-color: #dc3545;;
+    color: #fbe9e7;
+    border-color: #dc3545;
+    text-transform: uppercase;
+    margin-top: 10px;
+    border-radius: 0px;
+}
+.ListGroupStyle {
+    margin-top: 20px;
+    font-size: 12px;
+}
+.ListItemStyle {
+    background-color: transparent;
+    border: 0px;
+    border-color: transparent;
+    color: white;
+}
+.ListItemStyle:hover {
+    background-color: #1a237e;
+    color: #e3f2fd;
+}
+.ListItemStyleActive {
+    background-color: #1a237e;
+    color: #e3f2fd;
+}
+.ListItemStyleActive:hover {
+    background-color: #1a237e;
+    color: #e3f2fd;
+}

@@ -1,0 +1,28 @@
+.wrapper {
+    padding: 5px;
+    margin: 0px;
+    margin-top: 30px;
+}
+.QuestionTitle {
+    text-decoration: underline;
+    color: #ffffff;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: Montserrat,sans-serif;
+}
+.TextArea {
+    min-height: 500px;
+    width: 100%;
+    color: #3e2723;
+    text-align: left;
+}
+.MyJumboStyle {
+    padding: 0px;
+    background-color: transparent;
+    border-radius: 0px;
+}
+.QuestionTitleEditor {
+    background-color: #ffffff;
+    margin-bottom: 10px;
+    border: 0;
+}

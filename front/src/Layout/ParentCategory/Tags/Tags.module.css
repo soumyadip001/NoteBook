@@ -1,0 +1,14 @@
+.HashIcon {
+    font-size: 22px;
+    color: #757272;
+    font-weight: bold;
+    margin-left: 0px !important;
+    line-height: 12px;
+}
+.HashCount {
+    background: #212121;
+    background: #212121;
+    padding: 2px 10px;
+    border-radius: 10px;
+    float: right;
+}
