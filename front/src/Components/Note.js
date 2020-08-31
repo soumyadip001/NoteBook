@@ -131,7 +131,7 @@ class Note extends Component {
             title: qTitle, 
             content: qContent, 
             category: category
-        }
+        };
 
         axios.post('http://127.0.0.1:8000/notes', postData)
             .then((response) => {
